@@ -19,8 +19,8 @@ function Header() {
 
 	return (
 		<div className="wrapper">
-			<div className="header">
-				<div className="header-wrapper">
+			<div className="Header">
+				<div className="Header_wrapper">
 					<span className="hi">Hi, My Name is</span>
 					<div className="about_me">
 						<h1>Mosae Litsoane</h1>

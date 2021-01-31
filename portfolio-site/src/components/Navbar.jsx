@@ -30,13 +30,13 @@ function Navbar() {
 					<span>01.</span> About
 				</Link>
 				<Link to="skills" smooth={true} duration={1000}>
-					<span>02.</span> About
+					<span>02.</span> Skills
 				</Link>
 				<Link to="projects" smooth={true} duration={1000}>
-					<span>03.</span> About
+					<span>03.</span> Projects
 				</Link>
 				<Link to="contact" smooth={true} duration={1000}>
-					<span>04.</span> About
+					<span>04.</span> Get in Touch
 				</Link>
 			</div>
 		</div>
