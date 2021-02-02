@@ -6,7 +6,6 @@ import SingleProject from './SingleProject';
 
 function AlertDialog({ project }) {
 	const [open, setOpen] = React.useState(false);
-	// open === false => darkmode
 	const { name, description, github, image, site, tech_used } = project;
 
 	const handleClickOpen = () => {
@@ -41,13 +40,6 @@ function AlertDialog({ project }) {
 					</div>
 					<div id="img-project">
 						<img src={image} alt="sreenshots of projects" />
-						{/**
-          {video ? (
-              <video src={video} autoPlay loop poster={image}></video>
-            ) : (
-              <img src={image} alt="sun" />
-            )}
-         */}
 					</div>
 
 					<div className="single-project-description">

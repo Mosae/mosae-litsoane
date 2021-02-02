@@ -20,25 +20,27 @@ function Header() {
 	return (
 		<div className="wrapper">
 			<div className="Header">
-				<div className="Header_wrapper">
-					<span className="hi">Hi, My Name is</span>
-					<div className="about_me">
+				<div className="Header-wrapper">
+					<span className="say-hi">Hi, My Name is</span>
+					<div className="about-me">
 						<h1>Mosae Litsoane</h1>
-						<h2 className="what_ido">
-							Love learning new technologies and building the internet
+						<h2 className="what-ido">
+							I Love learning new technologies and building meaningful projects
+							with awesome people
 						</h2>
-						<p className="about_description">
+						<p className="about-description">
 							I am a Web Developer who has a passion for building web
-							applications currently based in Rochester Minnesota.
+							applications and collaborating with other developers. I am
+							currently based in Rochester Minnesota.
 						</p>
 					</div>
-					<div className="email_me">
-						<a href="mailto:mosaelitsoane@gmail.com">Let's connect</a>
+					<div className="email-me">
+						<a href="mailto:mosaelitsoane@gmail.com">Get In Touch</a>
 					</div>
 				</div>
 			</div>
 			<div className={isUserScrolling}>
-				<Link to="top" smooth={true} duration={1000}>
+				<Link to="Header" smooth={true} duration={1000}>
 					<span role="img" aria-label="Back to top">
 						 👆🏾 
 					</span>

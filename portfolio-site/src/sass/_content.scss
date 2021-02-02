@@ -1,4 +1,4 @@
-.Content_container {
+.Content-container {
 	max-width: 950px;
 	margin: 0 auto;
 	padding: 0 1rem;
@@ -10,7 +10,7 @@
 	@media (max-width: $tablet) {
 		margin-top: -10rem;
 	}
-	.title_color {
+	.title-color {
 		color: $blue;
 		color: $second-white;
 
@@ -23,14 +23,14 @@
 
 	h3 {
 		text-transform: uppercase;
-		font-size: 1rem;
+		font-size: 1.2rem;
 		margin-bottom: 0.7rem;
 		@media (max-width: $extra-sm) {
 			font-size: 0.9rem;
 		}
 	}
 
-	.about_me_container {
+	.aboutme-container {
 		@include flex(space-between);
 		margin-bottom: 12rem;
 
@@ -49,9 +49,9 @@
 
 		p {
 			width: 80%;
-			font-size: 0.9rem;
+			font-size: 1.1rem;
 			font-weight: lighter;
-			line-height: 1.6;
+			line-height: 1.7;
 
 			@media (max-width: $lg-mobile) {
 				width: 85%;
@@ -63,14 +63,14 @@
 			}
 		}
 	}
-	.Content_skills {
+	.Content-skills {
 		@include flex(space-between);
 
 		@media (max-width: $lg-mobile) {
 			flex-direction: column;
 		}
 
-		.skills_container {
+		.skills-container {
 			width: 80%;
 
 			@media (max-width: $lg-mobile) {
@@ -78,7 +78,7 @@
 				margin: 1rem auto 0;
 			}
 
-			.shared_width {
+			.shared-width {
 				@media (max-width: $lg-mobile) {
 					width: 45%;
 				}
@@ -91,7 +91,7 @@
 				}
 			}
 
-			.languages_wrapper {
+			.languages-wrapper {
 				@include flex(space-between);
 				margin-bottom: 12rem;
 
@@ -104,7 +104,7 @@
 				}
 
 				li {
-					font-size: 0.9rem;
+					font-size: 1rem;
 					font-weight: lighter;
 					margin-bottom: 0.3rem;
 				}
@@ -112,68 +112,66 @@
 		}
 	}
 
-	/// project content
+	.ProjectContent {
+		@include flex(space-between);
+		margin-bottom: 12rem;
 
-	// 	.ProjectContent {
-	// 		@include flex(space-between);
-	// 		margin-bottom: 12rem;
+		@media (max-width: $lg-mobile) {
+			flex-direction: column;
+		}
 
-	// 		@media (max-width: $lg-mobile) {
-	// 			flex-direction: column;
-	// 		}
+		@media (max-width: $sm-mobile) {
+			margin-bottom: 8rem;
+		}
 
-	// 		@media (max-width: $sm-mobile) {
-	// 			margin-bottom: 8rem;
-	// 		}
+		.ProjectContent-display {
+			width: 80%;
+			@include flex(space-between);
+			flex-wrap: wrap;
 
-	// 		.ProjectContent-display {
-	// 			width: 80%;
-	// 			@include flex(space-between);
-	// 			flex-wrap: wrap;
+			@media (max-width: $lg-mobile) {
+				width: 85%;
+				margin: 1rem auto 0;
+			}
+			.side-one {
+				position: relative;
+				cursor: pointer;
+				margin-bottom: -0.4rem;
 
-	// 			@media (max-width: $lg-mobile) {
-	// 				width: 85%;
-	// 				margin: 1rem auto 0;
-	// 			}
-	// 			.side-one {
-	// 				position: relative;
-	// 				cursor: pointer;
-	// 				margin-bottom: -0.4rem;
+				img {
+					width: 100%;
+					height: 200px;
+					object-fit: cover;
+					border-radius: 4px;
 
-	// 				img {
-	// 					width: 100%;
-	// 					height: 200px;
-	// 					object-fit: cover;
-	// 					border-radius: 4px;
+					@media (max-width: $sm-mobile) {
+						width: 220px;
+					}
+				}
 
-	// 					@media (max-width: $sm-mobile) {
-	// 						width: 220px;
-	// 					}
-	// 				}
-
-	// 				.toggle-name {
-	// 					position: absolute;
-	// 					top: 0;
-	// 					background: rgba(100, 255, 218, 0.7);
-	// 					width: 100%;
-	// 					height: 97%;
-	// 					padding: 0.7rem 0;
-	// 					text-transform: capitalize;
-	// 					opacity: 0;
-	// 					border-radius: 4px;
-	// 					transition: opacity 0.3s ease;
-	// 					@include flex(center);
-	// 					align-items: center;
-	// 					color: #050e1a;
-	// 					font-size: 1rem;
-	// 					text-transform: uppercase;
-	// 				}
-	// 				&:hover {
-	// 					.toggle-name {
-	// 						opacity: 1;
-	// 					}
-	// 				}
-	// 			}
-	// 		}
-	// 	}
+				.toggle-name {
+					position: absolute;
+					top: 0;
+					background: rgba(255, 77, 0, 0.7);
+					width: 100%;
+					height: 97%;
+					padding: 0.7rem 0;
+					text-transform: capitalize;
+					opacity: 0;
+					border-radius: 4px;
+					transition: opacity 0.3s ease;
+					@include flex(center);
+					align-items: center;
+					color: #050e1a;
+					font-size: 1rem;
+					text-transform: uppercase;
+				}
+				&:hover {
+					.toggle-name {
+						opacity: 1;
+					}
+				}
+			}
+		}
+	}
 }

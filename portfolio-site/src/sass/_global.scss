@@ -7,8 +7,7 @@
 
 body {
 	font-family: 'Open Sans', sans-serif;
-	overflow: hidden;
-	background: #050e1a;
+	background: #162447;
 	color: $second-white;
 }
 
@@ -25,26 +24,19 @@ span {
 	display: inline-block;
 }
 
-.Parent_wrapper {
+.Parent-wrapper {
 	color: #333;
 	a {
 		color: #333;
 	}
 }
 
-.dark-mode {
-	background: #050e1a;
-	//   background: #031122;
-
-	color: $white;
-	color: $second-white;
-}
 a {
 	color: $white;
 }
 
-.Header_wrapper {
-	.about_me {
+.Header-wrapper {
+	.aboutme {
 		h1 {
 			color: #f5f5f5;
 
@@ -55,7 +47,7 @@ a {
 	}
 }
 
-.about_me_container {
+.aboutme-container {
 	p {
 		color: #afafbf;
 		color: $darker-white;

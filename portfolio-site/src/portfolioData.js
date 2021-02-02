@@ -220,30 +220,4 @@ export const portfolioData = [
 		github: 'https://github.com/Mosae/gameoflife/',
 		site: 'https://gameoflife-rho.vercel.app/',
 	},
-
-	// {
-	// 	name: 'Spotify landing page',
-	// 	image: `${spotify}`,
-	// 	video: `${spotifyVideo}`,
-	// 	description: {
-	// 		subtitle: 'Spotify Landing page.',
-	// 		roles: [
-	// 			{
-	// 				role: '- Designed and built Landing page.',
-	// 			},
-	// 			{
-	// 				role:
-	// 					'- Collaborated with a team of 3 Web Developers, 3 Data Scientist to build a fully functional Web application in a week.',
-	// 			},
-	// 		],
-	// 	},
-
-	// 	tech_used: {
-	// 		frontend: 'HTML | LESS | JavaScript',
-	// 		backend: '',
-	// 	},
-
-	// 	github: 'https://github.com/Spotify-Song-Suggester-2-BW/FE-repo',
-	// 	site: 'https://spotify-song-suggester-2.netlify.app',
-	// },
 ];

@@ -44,6 +44,9 @@
 			&:first-child {
 				margin-right: 1rem;
 			}
+			&:last-child {
+				margin-left: 1rem;
+			}
 
 			@media (max-width: $tablet) {
 				font-size: 0.8rem;
