@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-scroll';
-
+import resume from './resume.pdf';
+import logo from '../images/logo.png';
 function Navbar() {
 	const [scrolling, setScrolling] = useState(false);
 
@@ -22,22 +23,34 @@ function Navbar() {
 	}, []);
 
 	const isUserScrolling = scrolling ? 'Navbar black' : 'Navbar';
-	// const 1000 = 1000;
 	return (
 		<div className={isUserScrolling} id="top">
-			<div className="nav_links">
-				<Link to="about" smooth={true} duration={1000}>
+			<div className="nav-links">
+				<a className="logo" href="/">
+					<div className="logo-image">
+						<img src={logo} alt="logo" />
+					</div>
+				</a>
+				<Link offset={-70} to="about" smooth={true} duration={1000}>
 					<span>01.</span> About
 				</Link>
-				<Link to="skills" smooth={true} duration={1000}>
-					<span>02.</span> About
+				<Link offset={-70} to="skills" smooth={true} duration={1000}>
+					<span>02.</span> Skills
 				</Link>
-				<Link to="projects" smooth={true} duration={1000}>
-					<span>03.</span> About
+				<Link offset={-70} to="projects" smooth={true} duration={1000}>
+					<span>03.</span> Projects
 				</Link>
 				<Link to="contact" smooth={true} duration={1000}>
-					<span>04.</span> About
+					<span>04.</span> Contact
 				</Link>
+
+				<a
+					className="resume-button"
+					href={resume}
+					target="_blank"
+					rel="noopener noreferrer">
+					Resume
+				</a>
 			</div>
 		</div>
 	);
