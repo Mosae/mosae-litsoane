@@ -29,7 +29,7 @@ export const portfolioData = [
 
 		tech_used: {
 			frontend: 'React JS | JavaScript | Url API | SASS.',
-			backend: 'Node JS | Express | PostgreSQL | knex JS | heroku.',
+			backend: 'Node JS | Express | PostgreSQL | knex JS | Vercel.',
 		},
 
 		github: 'https://github.com/Mosae/url-shortner',
@@ -59,8 +59,8 @@ export const portfolioData = [
 		},
 
 		tech_used: {
-			frontend: 'React.js | JavaScript | News API |',
-			backend: 'Alan AI | News API | Github | Versel |',
+			frontend: 'React.js | JavaScript | News API ',
+			backend: 'Alan AI | News API | Github | Vercel ',
 		},
 
 		github: 'https://github.com/Mosae/alan-ai-news-reader-app',
@@ -85,7 +85,7 @@ export const portfolioData = [
 					role: '- Used Chart.js to display the data on a line graph',
 				},
 				{
-					role: '- Deployed responsive site to Versel.',
+					role: '- Deployed responsive site to Vercel.',
 				},
 			],
 		},
@@ -93,7 +93,7 @@ export const portfolioData = [
 		tech_used: {
 			frontend:
 				'React.js | JavaScript | Covid API | Material UI | React-chart-js-2',
-			backend: 'Covid API | Github | Vercel |',
+			backend: 'Covid API | Github | Vercel ',
 		},
 
 		github: 'https://github.com/Mosae/covid-tracker',
@@ -119,7 +119,7 @@ export const portfolioData = [
 		},
 
 		tech_used: {
-			frontend: 'React.JS | HTML | CSS | Material UI |.',
+			frontend: 'React.JS | HTML | CSS | Material UI .',
 			backend: 'Firebase.',
 		},
 
@@ -144,8 +144,8 @@ export const portfolioData = [
 		},
 
 		tech_used: {
-			frontend: 'Angular JS | TypeScript | SASS | Socket.io',
-			backend: 'Versel',
+			frontend: 'Angular JS | TypeScript | SASS ',
+			backend: 'Vercel',
 		},
 
 		github: 'https://github.com/Mosae/angular-tic-tac-toe',
@@ -213,7 +213,7 @@ export const portfolioData = [
 		},
 
 		tech_used: {
-			frontend: 'React JS | SASS',
+			frontend: 'React JS | SASS | Material UI ',
 			backend: '',
 		},
 
