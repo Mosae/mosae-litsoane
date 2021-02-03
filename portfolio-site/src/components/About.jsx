@@ -32,7 +32,7 @@ const About = () => {
 					application and websites. My goal is to contribute my skills that will
 					help people have a better experience. After graduating from a software
 					engineering academy, I have put my skills to use by building problem
-					solving application that can be use by anyone
+					solving application that can be used by anyone
 				</p>
 			</div>
 
