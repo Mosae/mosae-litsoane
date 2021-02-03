@@ -16,7 +16,7 @@ const tools = [
 	'Terminal',
 	'Chrome DevTools',
 	'Alan AI',
-	'Versel',
+	'Vercel',
 ];
 const frameworks = ['React', 'Express', 'Bootstrap', 'Material UI', 'Angular'];
 const libraries = ['React-Chart.js-2', 'Axios', 'Unit testing', 'Jest'];
