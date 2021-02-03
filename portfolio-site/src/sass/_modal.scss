@@ -204,5 +204,8 @@
 		@media (max-width: $tablet) {
 			font-size: 0.9rem;
 		}
+		@media (max-width: $mobile) {
+			padding: 1rem;
+		}
 	}
 }
