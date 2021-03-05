@@ -14,7 +14,11 @@ function GetInTouch() {
 						field. I am open to learning new skills to improve as a developer
 					</p>
 					<div className="email-me">
-						<a className="email-link" href="mailto:mosaelitsoane@gmail.com">
+						<a
+							className="email-link"
+							href="mailto:mosaelitsoane@gmail.com"
+							target="_blank"
+							rel="noreferrer">
 							<h2 className="title">Get In Touch</h2>
 						</a>
 					</div>
