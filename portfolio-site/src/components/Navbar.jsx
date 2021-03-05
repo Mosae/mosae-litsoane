@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-scroll';
-import Resume from './Resume.pdf';
+import resume from './2021.pdf';
 import logo from '../images/logo.png';
 function Navbar() {
 	const [scrolling, setScrolling] = useState(false);
@@ -46,7 +46,7 @@ function Navbar() {
 
 				<a
 					className="resume-button"
-					href={Resume}
+					href={resume}
 					target="_blank"
 					rel="noopener noreferrer">
 					Resume
