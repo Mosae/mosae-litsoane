@@ -6,7 +6,7 @@ import { FaLinkedin } from 'react-icons/fa';
 function Footer() {
 	return (
 		<footer className="Footer">
-			<div className="madeby">Mosae Litsoane</div>
+			<div className="madeby">Mosae Litsoane: 2021</div>
 
 			<nav>
 				<a
