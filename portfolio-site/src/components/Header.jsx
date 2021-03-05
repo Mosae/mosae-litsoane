@@ -35,7 +35,12 @@ function Header() {
 						</p>
 					</div>
 					<div className="email-me">
-						<a href="mailto:mosaelitsoane@gmail.com">Get In Touch</a>
+						<a
+							href="mailto:mosaelitsoane@gmail.com"
+							target="_blank"
+							rel="noreferrer">
+							Get In Touch
+						</a>
 					</div>
 				</div>
 			</div>
