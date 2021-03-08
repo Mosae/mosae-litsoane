@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-scroll';
-import resume from './2021.pdf';
+import resume from './mosae.pdf';
 import logo from '../images/logo.png';
 function Navbar() {
 	const [scrolling, setScrolling] = useState(false);
