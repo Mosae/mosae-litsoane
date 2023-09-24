@@ -24,21 +24,11 @@ function Header() {
 					<span className="say-hi">Hi, My Name is</span>
 					<div className="about-me">
 						<h1>Mosae Litsoane</h1>
-						<h2 className="what-ido">
-							I Love learning new technologies and building meaningful projects
-							with awesome people
-						</h2>
-						<p className="about-description">
-							I am a Web Developer who has a passion for building web
-							applications and collaborating with other developers. I am
-							currently based in Rochester Minnesota.
-						</p>
+						<h2 className="what-ido">I Love learning new technologies and building meaningful projects with awesome people</h2>
+						<p className="about-description">I am a Web Developer who has a passion for building web applications and collaborating with others.</p>
 					</div>
 					<div className="email-me">
-						<a
-							href="mailto:mosaelitsoane@gmail.com"
-							target="_blank"
-							rel="noreferrer">
+						<a href="mailto:mosaelitsoane@gmail.com" target="_blank" rel="noreferrer">
 							Get In Touch
 						</a>
 					</div>
